@@ -1,0 +1,31 @@
+<script src = "index.js">
+</script>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px; /* Add 10px padding to all cells */
+}
+</style>
+<form id = "user-form">
+    <label for="name">Name</label>
+    <input required type="text" id="name"  name="name"><br><br>
+
+    <label for="email">Email</label>
+    <input required type="email" id="email" name="email"><br><br>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <input type="checkbox" id="acceptTerms" name="acceptTerms">
+    <label for="acceptTerms">Accept Terms & Conditions</label><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<h2>entries</h2>
+<div id="user-entries"></div>
